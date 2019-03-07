@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f00c25f-8b98-4308-89a1-05a83f59a001" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/css/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/fonts/NotoSerif-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/fonts/NotoSerif-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/fonts/NotoSerif-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/fonts/NotoSerif-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/credit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/images/slide-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/js/swiper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/img-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/img-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="4f00c25f-8b98-4308-89a1-05a83f59a001" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -244,12 +211,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551944668301</updated>
-      <workItem from="1551944669472" duration="11842000" />
+      <workItem from="1551944669472" duration="12442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11842000" />
+    <option name="totallyTimeSpent" value="12442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
