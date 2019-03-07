@@ -2,26 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f00c25f-8b98-4308-89a1-05a83f59a001" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/NotoSerif-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/NotoSerif-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/NotoSerif-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/NotoSerif-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/credit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/img-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/fonts/NotoSerif-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/fonts/NotoSerif-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/fonts/NotoSerif-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/fonts/NotoSerif-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/credit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/images/slide-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile/js/swiper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/img-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,22 +50,52 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="304" column="18" selection-start-line="304" selection-start-column="18" selection-end-line="304" selection-end-column="18" />
+            <state relative-caret-position="411">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="821">
+              <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+              <folding>
+                <element signature="e#1960#2218#2" expanded="true" />
+                <element signature="e#2273#2531#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+            <state relative-caret-position="801">
+              <caret line="219" column="1" lean-forward="true" selection-start-line="219" selection-start-column="1" selection-end-line="219" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -64,6 +106,8 @@
     <findStrings>
       <find>data-aos-offset=&quot;400&quot;</find>
       <find>data-aos-delay=&quot;200&quot;</find>
+      <find>hạnh phúc với nó</find>
+      <find>hạnh</find>
     </findStrings>
     <replaceStrings>
       <replace>data-aos-offset=&quot;200&quot;</replace>
@@ -78,6 +122,8 @@
       <list>
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/mobile/css/style.css" />
+        <option value="$PROJECT_DIR$/mobile/index.html" />
       </list>
     </option>
   </component>
@@ -107,6 +153,29 @@
             <path>
               <item name="HaBui" type="b2602c69:ProjectViewProjectNode" />
               <item name="HaBui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HaBui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HaBui" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HaBui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HaBui" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HaBui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HaBui" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HaBui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HaBui" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HaBui" type="b2602c69:ProjectViewProjectNode" />
@@ -146,9 +215,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Citigo\Dropbox\HaBui\mobile\images" />
+      <recent name="C:\Users\Citigo\Dropbox\HaBui\mobile\js" />
+      <recent name="C:\Users\Citigo\Dropbox\HaBui\mobile\css" />
+      <recent name="C:\Users\Citigo\Dropbox\HaBui\mobile" />
       <recent name="C:\Users\Citigo\Dropbox\HaBui\web\css" />
-      <recent name="C:\Users\Citigo\Dropbox\HaBui\web\js" />
-      <recent name="C:\Users\Citigo\Dropbox\HaBui\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,12 +244,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551944668301</updated>
-      <workItem from="1551944669472" duration="8814000" />
+      <workItem from="1551944669472" duration="11842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8814000" />
+    <option name="totallyTimeSpent" value="11842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -231,22 +302,57 @@
     <entry file="file://$PROJECT_DIR$/web/images/img-2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/css/swiper.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/js/swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="219" column="1" lean-forward="true" selection-start-line="219" selection-start-column="1" selection-end-line="219" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+          <folding>
+            <element signature="e#1960#2218#2" expanded="true" />
+            <element signature="e#2273#2531#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="304" column="18" selection-start-line="304" selection-start-column="18" selection-end-line="304" selection-end-column="18" />
+        <state relative-caret-position="411">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+    <entry file="file://$PROJECT_DIR$/mobile/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+        <state relative-caret-position="425">
+          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
