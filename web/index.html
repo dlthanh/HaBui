@@ -1,0 +1,309 @@
+ <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doanh nhân Hà Bùi - Bà chủ "bị ép" làm người mẫu của làng thời trang Việt</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        $(document).ready(function() {
+            AOS.init();
+
+            $('[data-fancybox="images"]').fancybox({
+                buttons: [
+                    "zoom",
+                    "close"
+                ],
+                arrows: false,
+                infobar: false
+            });
+
+            var slide = new Swiper('.swms-container', {
+                speed: 300,
+                spaceBetween: 15,
+                slidesPerView: 3,
+                slidesPerGroup: 3,
+                navigation: {
+                    nextEl: '.swms-next',
+                    prevEl: '.swms-prev'
+                },
+                on: {
+                    init: function() {
+                        $('.swiper-slide').eq(0).find('img').fadeIn(300);
+                        $('.swiper-slide').eq(1).find('img').fadeIn(300);
+                        $('.swiper-slide').eq(2).find('img').fadeIn(300);
+                    },
+                    slideChangeTransitionStart: function() {
+                            $('.swiper-slide').eq(slide.activeIndex).find('img').removeClass('aos-init').removeClass('aos-animate');
+                            $('.swiper-slide').eq(slide.activeIndex + 1).find('img').removeClass('aos-init').removeClass('aos-animate');
+                            $('.swiper-slide').eq(slide.activeIndex + 2).find('img').removeClass('aos-init').removeClass('aos-animate');
+                    },
+                    slideChangeTransitionEnd: function() {
+                        $('.swiper-slide img').hide();
+                        $('.swiper-slide').eq(slide.activeIndex).find('img').fadeIn(100);
+                        $('.swiper-slide').eq(slide.activeIndex + 1).find('img').fadeIn(100);
+                        $('.swiper-slide').eq(slide.activeIndex + 2).find('img').fadeIn(100);
+                        AOS.init();
+                    }
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="coyen-wrapper">
+        <div class="cw-cover">
+            <img class="wow fadeIn" src="images/cover.jpg" alt="">
+        </div>
+
+        <div class="cw-main">
+            <div class="cwm-sapo cwm-img w660">
+                <img src="images/sapo.png" alt="">
+            </div>
+
+            <div class="cwm-text w660">
+                <p>Đầu năm 2019, lần đầu tiên sau hơn 5 năm hoạt động, Công ty Sohee của Hà Bùi không gặp vấn đề nhân sự sau Tết Âm lịch, bộ sưu tập xuân hè cũng đã hoàn tất. Trước đó, bà chủ của hãng thời trang công sở theo phong cách Hàn Quốc quyết định chụp mẫu cho bộ sưu tập xuân hè với 100 bộ.</p>
+            </div>
+
+            <div class="cwm-title cwm-img w960">
+                <img src="images/title-1.png" alt="">
+            </div>
+
+            <div class="cwm-text w660">
+                <p class="bold">Chị bắt đầu làm người mẫu cho Sohee từ khi nào?</p>
+
+                <p>Đó là năm 2017, Sohee chụp mẫu cho bộ sưu tập ở Times City và tôi đi cùng với Tú Anh (Á hậu Tú Anh - PV). Lúc đó, tôi chỉ chụp chơi thôi và up lên facebook cá nhân thì nhận được lượng tương tác rất lớn. Sau đó, nhiều người ra showroom của chúng tôi và hỏi “bộ mà chị Hà Bùi mặc” và mẫu ấy bán rất chạy. Cũng từ đó mà tôi có nhiều người follow hơn trên facebook.</p>
+
+                <p>Các bạn nhân viên trong công ty nói với tôi: “Bên mình hay thuê Hoa hậu và Á hậu chụp mẫu, họ đẹp sẵn rồi thì mặc gì chả đẹp. Còn sếp mặc thì thực tế vì cũng như người bình thường nên người khác có thể mặc theo như vậy được”.</p>
+
+                <p>Thực tế là nhiều khách hàng ra showroom của chúng tôi, mở điện thoại ra và chỉ vào hình, yêu cầu nhân viên Sohee phải lấy đúng mẫu mà tôi đã chụp, thậm chí thắt nơ, rồi đeo đai y như vậy thì mới mua. Khi thống kê, tôi cũng phát hiện ra là cứ mẫu nào mình chụp thì bán rất tốt, bao giờ cũng tốt nhất trong bộ sưu tập.</p>
+
+                <p>Kể từ đó, việc tôi đi chụp mẫu cho Sohee mỗi khi ra bộ sưu tập mới như một công việc bắt buộc. Mỗi khi tôi bận quá không đi chụp mẫu cho bộ sưu tập mới thì nhân viên lại ồ lên nhắc: “Sếp đi chụp đi!”.</p>
+            </div>
+
+            <div class="cwm-img w960" style="margin: 40px auto;">
+                <img src="images/img-1.png" alt=""/>
+            </div>
+
+            <div class="cwm-text w660">
+                <p class="bold">Không có bà chủ hãng thời trang nào như cỡ của Sohee lại đi làm mẫu thường xuyên cho bộ sưu tập của mình. Chị nghĩ gì về điều đó?</p>
+
+                <p>Thực ra thì đi chụp hình cũng mệt, phải phơi nắng đúng lúc to nhất và tôi lại không phải là người mẫu. Thế nhưng, Sohee và tôi có được ngày hôm nay là do sự yêu mến của khách hàng, mình cũng nên chiều khách hàng một chút. Vì thế, việc sắp xếp công việc để chụp một vài buổi cũng là điều nên làm. Đi chụp mẫu tôi mới cảm nhận rõ và có sự chia sẻ với các bạn mẫu về công việc rất là mệt và vất vả của các bạn ý.</p>
+
+                <p class="bold">Vậy chị sẽ làm người mẫu cho Sohee đến bao giờ?</p>
+
+                <p>Đầu năm nay, tôi quyết định sẽ không làm mẫu nữa và dự kiến chụp lần cuối cùng cho bộ sưu tập hè. Tôi đi chụp cùng ê kíp tới 3 ngày với 100 bộ đồ, đến nỗi bị tụ máu ở 2 đầu ngón chân cái, phải thay móng. Thế nhưng, tôi cũng không cảm thấy quá mệt mỏi mà rất vui. Sau này, nếu khách hàng vẫn thích và tiếp tục yêu cầu thì mỗi năm tôi sẽ chụp một ít bộ để cảm ơn họ đã ủng hộ Sohee.</p>
+            </div>
+
+            <div class="cwm-slide">
+                <img src="images/slide-frame.png" alt="" class="cwms-frame">
+
+                <div class="cwms-main">
+                    <img src="images/slide-frame-2.png" alt="" class="cwmsm-frame">
+
+                    <div class="table">
+                        <div class="table-cell">
+                            <img src="images/slide-title.png" alt="" class="cwmsm-title">
+
+                            <div class="swms-container swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-12.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-6.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="200" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-7.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="400" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-3.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-8.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="200" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-9.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="400" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-1.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-4.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="200" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-15.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="400" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-10.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-11.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="200" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-2.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="400" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-13.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-5.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="200" data-aos-offset="200">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="images/slide-14.jpg" alt="" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="400" data-aos-offset="200">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swms-next">
+                                <img src="images/next.png" alt="">
+                            </div>
+                            <div class="swms-prev">
+                                <img src="images/prev.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cwm-title cwm-img w960">
+                <img src="images/title-2.png" alt="">
+            </div>
+
+            <div class="cwm-text w660">
+                <p class="bold">Sohee ra đời cũng chưa lâu nhưng phát triển rất nhanh. Nếu nhìn lại thì chị tự đánh giá mình có thế mạnh gì nếu so với các hãng thời trang công sở khác trên thị trường?</p>
+
+                <p>Đầu tiên là sản phẩm. Chất liệu vải của mình phải tốt, form dáng chuẩn nên khi mặc vào thì ôm người và không bị thừa, không bị thiếu. Hàng của Sohee luôn cực chuẩn vì bản thân tôi đi lên từ công nhân nên tất cả quy trình tôi đều bắt rất chặt. Để có form dáng chuẩn, Sohee trả công cho may một sản phẩm cao hơn 30-40% so với mức thông thường trên thị trường để tuyển được công nhân may trình độ cao.</p>
+
+                <p>Sau khi có sản phẩm tốt thì tôi có chính sách giá cũng rất tốt thời kỳ đầu, thậm chí có lúc bán lỗ để khách hàng mua dùng thử. Khi nhiều người mặc Sohee và thấy đẹp thì họ tự truyền tai nhau. Chúng tôi mở rộng được là nhờ điều đó, chứ Sohee không đổ tiền vào quảng cáo. </p>
+
+                <p>Cá nhân tôi luôn tin rằng khách hàng là người cảm nhận rõ nhất. Nếu mình làm họ hài lòng thì sẽ bán được tiếp, chứ còn mình cứ nói tốt nhưng sản phẩm không như vậy thì kinh doanh không thể tốt được. </p>
+            </div>
+
+            <div class="cwm-img w960" style="margin: 40px auto;">
+                <img src="images/img-2.png"/>
+            </div>
+
+            <div class="cwm-text w660">
+                <p>Có thể nhiều người nghĩ là Sohee phát triển nhanh, chứ tôi thì nghĩ là Sohee chỉ phát triển theo tốc độ cảm nhận của khách hàng về chất lượng sản phẩm thôi. Họ là người quyết định mà.</p>
+
+                <p>Thực ra, còn một nguyên nhân quan trọng nữa là tôi chọn đúng thị trường để bắt đầu. Lúc khởi nghiệp, tôi không chọn Hà Nội làm nơi xuất phát mà chọn Thanh Hóa (quê của tôi) và Hải Dương. Ở các tỉnh, số chị em có điều kiện rất nhiều, chịu chi nhưng không quá khó tính như ở Hà Nội. Trong khi đó, các hãng thời trang công sở khác chỉ có đại lý ở tỉnh nên hàng thường thiếu và ít chương trình ưu đãi khuyến mại…</p>
+
+                <p>Sohee đánh trúng vào đoạn thị trường đang trống, nhu cầu cao cộng thêm có sản phẩm tốt nên thành công. Và sau đó, tôi mở ra nhiều tỉnh thành khác trước khi trở về Hà Nội và gọi đùa đây là chiến thuật “lấy nông thôn vây thành thị”.</p>
+            </div>
+
+            <div class="cwm-text w660">
+                <div class="cwm-img cwm-img-right w450">
+                    <img src="images/img-3.png" alt="">
+                </div>
+
+                <p class="bold">Chị đi công tác tới các showroom của Sohee tại các tỉnh gần như mỗi tuần – một tần suất rất dày ở vị trí Tổng giám đốc. Vì sao cần làm như vậy trong khi hầu hết những người chủ khác dành việc đó cho đội bán hàng là chính?</p>
+
+                <p>Mỗi người có một cách quản lý khác nhau. Tôi là người hành động, không quen đọc báo cáo nên muốn xuống nhìn tận mắt xem mọi việc ra sao. Hằng tháng, Sohee có khoảng 200 mẫu nên chỉ đọc báo cáo thì tôi không chỉ đạo được vì không có cảm nhận về thực tế. Khi đi thị trường thường xuyên, tôi có thể hiểu rõ tình hình và có điều chỉnh phù hợp hơn. Đây cũng trở thành một điểm mạnh của Sohee.</p>
+
+                <p>Nhờ bám sát thị trường mà chúng tôi điều chỉnh rất nhanh việc sản xuất, tập trung vào những mã hàng hot và đưa ngay ra showroom để bán, không bao giờ để hàng tồn kho ở công ty. Điều này giúp Sohee vận hành hiệu quả hơn rất nhiều nơi khác. Tôi vẫn trực tiếp điều hành một số đầu việc như bán hàng, marketing, thiết kế.</p>
+            </div>
+
+            <div class="cwm-title cwm-img w960">
+                <img src="images/title-3.png" alt="">
+            </div>
+
+            <div class="cwm-text w660">
+                <p class="bold">Tổng giám đốc một công ty hơn 500 người, với nhiều phòng ban mà chị vẫn phải kiêm nhiều vị trí như bán hàng, marketing… như vậy thì có ổn không?</p>
+
+                <p>Thì tôi vốn là công nhân mà (cười). Trước khi thành lập Sohee, tôi đi lên từ cô công nhân nhặt chỉ, làm hầu hết mọi khâu trong quy trình may mặc nên hiểu rất rõ mọi thứ. Nhờ đó, tôi cũng quản lý mọi việc chặt chẽ, nhìn sản phẩm mà có lỗi ở chỗ nào là biết ngay lập tức… Từng là công nhân là một thế mạnh của tôi.</p>
+
+                <p>Tất nhiên là ở Sohee hiện nay thì tôi vẫn hơi ôm đồm và tự làm nhiều quá, nhưng khi tuyển được người làm tốt là tôi giao ngay.</p>
+
+                <p>Thực ra tôi cũng thấy công việc bình thường vì vài năm trước tôi còn vất vả hơn nhiều. Tôi làm chủ nhưng vẫn đi xe buýt để giao hàng và ăn cơm hộp luôn trên xe để tiết kiệm thời gian. Lúc việc gấp, tôi cũng vào khâu cúc, cắt chỉ, bốc dỡ, xếp hàng, đóng hàng xoèn xoẹt… như nhân viên, và thấy rất bình thường.</p>
+
+                <p>Đến giờ tôi vẫn còn nhớ cảnh trước khi mở Sohee, tôi đi lấy hàng về bán đồng giá 100.000 đồng/cái. Ngồi sau anh xe ôm là tôi với phía sau là 2 tải quần áo to đùng. Đến gầm cầu Thanh Trì, tôi xuống để bắt xe buýt về cửa hàng thì không được lên vì túi hàng quá to mà bắt xe khách thì lại không đỗ đúng chỗ cửa hàng của mình, phải đi tiếp một đoạn khá xa nữa… </p>
+
+                <p>Tôi sinh 2 con gái thì cả 2 bạn được 18 ngày là tôi đã đi làm lại rồi, còn khi sinh thì đến đúng ngày lên bàn đẻ mới nghỉ.</p>
+            </div>
+
+            <div class="cwm-img w960 cwm-gallery" style="margin-bottom: 30px;">
+                <a href="images/img-1.jpg" data-fancybox="images">
+                    <img class="wow fadeIn" src="images/img-1.jpg" alt=""/>
+                </a>
+
+                <a href="images/img-2.jpg" data-fancybox="images">
+                    <img class="wow fadeIn" src="images/img-2.jpg" alt=""/>
+                </a>
+            </div>
+
+            <div class="cwm-img w960" style="margin: 50px auto;">
+                <img src="images/quote-1.png" alt="">
+            </div>
+
+            <div class="cwm-text w660">
+                <p class="bold">Với cường độ làm việc như vậy, chị có cảm thấy cuộc sống của mình cân bằng không?</p>
+
+                <p>Thực ra, với phụ nữ, nếu muốn thành công thì có khi cũng phải đánh đổi một điều gì đó trong cuộc sống, mà có lẽ với tôi là sự cân bằng như nhiều người vẫn nghĩ. </p>
+
+                <p class="bold">Cũng có nhân viên hỏi tôi là: “Thế sếp không đi đâu à?” vì hầu hết thời gian của tôi đều dành cho công việc ở công ty hoặc đi công tác các tỉnh vào cuối tuần. Thế nhưng tôi yêu thích công việc mình làm và hạnh phúc với nó. Nhưng dành nhiều thời gian cho công việc như vậy, chị thu xếp cho tổ ấm riêng như thế nào?</p>
+
+                <p>Tôi có lịch làm việc khoa học. Ban ngày xử lý những việc của công ty, buổi tối thì tôi dành thời gian hoàn toàn cho gia đình. Có thể trên thương trường tôi là một doanh nhân quyết liệt và bận rộn nhưng khi trở về nhà, tôi vẫn là một người mẹ bình thường của 2 con gái.</p>
+
+                <p>Cũng như bao phụ nữ khác, tôi cố gắng dạy dỗ hai con lớn khôn, biết quý trọng những gì mình có và san sẻ yêu thương với người kém may mắn hơn mình. Buổi tối, nhờ chơi đùa với hai con, bao nhiêu mệt mỏi của tôi dường như tan biến. Hai con cũng là động lực lớn để tôi phấn đấu trong sự nghiệp.</p>
+            </div>
+
+            <div class="cwm-title cwm-img w960">
+                <img src="images/title-4.png" alt="">
+            </div>
+
+            <div class="cwm-text w660">
+                <p class="bold">Năm 2018, Sohee phát triển mạnh dòng thời trang cao cấp “Sohee by Ha Bui”. Ý tưởng cho dòng sản phẩm này bắt đầu như thế nào? </p>
+
+                <p>Cuối năm 2017 khi khai trương showroom ở đường Thái Hà (Hà Nội), tôi phải may đồ cho các sao tới dự sự kiện, quyết định cũng bắt đầu từ đây. Trước đó, tôi thường làm đồ cho Hoa hậu Ngọc Hân khi bạn ý đi quay ở các chương trình như Không gian xanh hoặc tham dự sự kiện. </p>
+
+                <p>Tôi thấy sau khi đăng ảnh của Ngọc Hân mặc đồ tôi thiết kế lên facebook thì khách hàng rất thích, hỏi mua khá nhiều. Từ đó, tôi suy nghĩ và có ý định làm một dòng sản phẩm cao cấp hơn. Sau sự kiện khai trương showroom Thái Hà, tôi nảy ra cái tên “Sohee by Ha Bui” cho dòng sản phẩm mới và đích thân phụ trách thiết kế, sản xuất.</p>
+            </div>
+
+            <div class="cwm-img w660">
+                <img src="images/img-4.png" alt="">
+            </div>
+
+            <div class="cwm-text w660">
+                <p class="bold">Nhưng khi tấn công vào mảng thời trang cao cấp Sohee sẽ phải cạnh tranh với các hàng thời trang có thương hiệu lớn và ở phân khúc đó thì thương hiệu là nhân tố cực kỳ quan trọng. Vì sao chị vẫn quyết tâm thực hiện?</p>
+
+                <p>Đó cũng là lý do khi bắt đầu “Sohee by Ha Bui” tôi không dám làm mạnh ngay, chưa có các showroom riêng mà chỉ bày chung với hàng Sohee công sở. Lúc mới, chúng tôi chỉ sản xuất mỗi mã khoảng 10-15 cái thôi, chia cho mỗi cửa hàng có tiềm năng 1-2 cái.</p>
+
+                <p>Nhưng đến bây giờ thì hàng “Sohee by” ổn rồi, mỗi mã trung bình là 100 cái và có mã lên tới 200 cái. Khách hàng đã quen rồi nên tôi có ý tưởng mở thêm showroom riêng cho “Sohee by” bắt đầu ở thành phố Vinh. Sau đó tôi mới tiếp tục tại những thị trường trọng điểm, đón nhận sản phẩm này tốt như ở Hải Phòng, Hà Nội, Hải Dương.</p>
+
+                <p class="bold">Lý do nào khiến dòng sản phẩm cao cấp “Sohee by” có thành công bước đầu như vậy?</p>
+
+                <p>Thực tế, đó là việc mở rộng nhu cầu từ những khách hàng hiện nay mà thôi. Chúng tôi có nhiều khách hàng không phải dân công sở. Họ là những người kinh doanh, có điều kiện kinh tế, muốn có thêm các sản phẩm phóng khoáng, cầu kỳ và sành điệu hơn, chất lượng cao hơn, ít đụng hàng nhưng Sohee chưa có. </p>
+
+                <p>Nhóm khách hàng này thích phong cách ăn mặc của những người nổi tiếng và Sohee làm đúng nhu cầu đó của họ. Dòng “Sohee by” được đầu tư cho thiết kế, chất lượng vải cao cấp cũng tốt hơn hẳn, được may cầu kỳ với nhiều chi tiết, ít đụng hàng… Riêng với công nhân may, chúng tôi phải trả cao hơn 30% so với sản phẩm Sohee thông thường.</p>
+
+                <p>Đây có lẽ là những lý do giúp dòng sản phẩm này rất thành công trong năm 2018, chiếm tới 30% doanh số của Sohee và tôi dự kiến sẽ tăng lên 50% trong năm 2019.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
